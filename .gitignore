@@ -1,0 +1,14 @@
+test.py
+test1.py
+test2.py
+test3.py
+test4.py
+test_functions.py
+__pycache__/
+*.log
+__pycache__
+.idea
+*.img
+static
+static/img
+error_logs
