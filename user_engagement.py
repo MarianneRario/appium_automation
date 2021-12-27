@@ -7,7 +7,7 @@ import ssl
 ca = certifi.where()
 # DATABASE CLOUD CONNECTION
 cluster = MongoClient(
-    "mongodb+srv://rariom:marianne07@cluster0.20txl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "mongodb+srv://pass:name@cluster0.20txl.mongodb.net/users?retryWrites=true&w=majority",
     ssl=True, ssl_cert_reqs=ssl.CERT_NONE)
 # FETCHING DATABASE
 db = cluster["facebook"]

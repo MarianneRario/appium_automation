@@ -64,7 +64,7 @@ api.add_resource(Reaction, "/reaction")
 
 if __name__ == '__main__':
     # NGROK PUBLIC URL
-    webhook_url = "https://discord.com/api/webhooks/907665355097387068/j_IlDxExFI-5C72F7oDC78XQJNDhcuryZHQGyJLnRL__vUahOdq6Wp31I1OqtikkUPOb"
+    webhook_url = ""
     ngrok_public_url(webhook_url)
     app.debug = False
     app.run(use_reloader=False)
