@@ -7,3 +7,4 @@ __pycache__
 static
 static/img
 error_logs
+user_engagement.py
